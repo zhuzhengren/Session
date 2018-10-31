@@ -1,6 +1,8 @@
 <?php
 
 
+
+
 header('Content-type:text/html;charset=utf-8');
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if (empty($_POST['username'])) {
